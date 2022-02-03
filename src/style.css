@@ -3,22 +3,42 @@
     padding: 0;
     
 }
-wrapper{
-   width: 100%;
-}
+
+/*header*/
 
 header{
     width: 100%;
     border: 2px solid black;
-    height: 15vh;
+    height: 16vh;
     background-color: rgb(223, 222, 222);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #logo{
-    width: 20%;
-    /*border:2px solid black;*/
-    font-size: 7vh;
+    width: 30%;
+    /*border: 2px solid black;*/
+    font-size: 3.3vw;
     font-weight: bold;
-    margin-top: 17px;
-    margin-left: 30px;
+    margin-top: 3.4vh;
+    margin-left: 4vh;
+}
+
+
+/* navbar */
+nav{
+    /*height: 10vh;*/
+    background-color: black;
+    color: white;
+    font-size: 2vw;
+}
+
+nav ul li{
+    display: inline-block;
+    border-right: 3px solid white;
+    border-right: 3px solid white;
+    padding: 10px;  
+    text-align: center;  
+    margin:0 -5px;
+}
+nav ul li:hover{
+   background-color: green;  
 }
