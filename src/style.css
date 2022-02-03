@@ -59,7 +59,7 @@ main{
     width: 64%;
     /*border:2px solid black;*/
     float: left;
-    padding: 20px;
+    padding: 1.5%;
     height: 100%;
 }
 .content h1{
@@ -70,9 +70,22 @@ main{
     height: 100%;
     /*border: 2px solid black;*/
     float: right;
-    padding: 20px;
+    padding: 1.5%;
     background-color:rgb(205, 213, 218);
 }
 .sidebar h2{
     color:rgb(24, 107, 134)
+}
+
+/*footer*/
+
+footer{
+    height: 10vh;
+    background-color: rgb(223, 222, 222);
+}
+#copyright{
+    float: right;
+    margin: 30px 30px 0 0;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
