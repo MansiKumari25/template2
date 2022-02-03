@@ -8,7 +8,7 @@
 
 header{
     width: 100%;
-    border: 2px solid black;
+    border-top: 2px solid white;
     height: 16vh;
     background-color: rgb(223, 222, 222);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -30,15 +30,49 @@ nav{
     color: white;
     font-size: 2vw;
 }
-
+nav ul{
+    list-style: none;
+}
 nav ul li{
     display: inline-block;
     border-right: 3px solid white;
-    border-right: 3px solid white;
+    border-left: 3px solid white;
     padding: 10px;  
     text-align: center;  
     margin:0 -5px;
 }
 nav ul li:hover{
    background-color: green;  
+
+}
+
+/*main */
+main{
+   /* border:2px solid black;*/
+    height: 600px;
+    overflow: hidden;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content{
+    width: 64%;
+    /*border:2px solid black;*/
+    float: left;
+    padding: 20px;
+    height: 100%;
+}
+.content h1{
+    color:rgb(24, 107, 134);
+}
+.sidebar{
+    width: 30%;
+    height: 100%;
+    /*border: 2px solid black;*/
+    float: right;
+    padding: 20px;
+    background-color:rgb(205, 213, 218);
+}
+.sidebar h2{
+    color:rgb(24, 107, 134)
 }
